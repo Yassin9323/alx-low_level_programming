@@ -1,4 +1,4 @@
-#include "main.h"
+nclude "main.h"
 #include <stdio.h>
 
 /**
@@ -9,13 +9,13 @@
  *      */
 void print_putchar(char string[])
 {
-	int i = 0;
+		int i = 0;
 
-	while (string[i] != '\0')
-	{
-			putchar(string[i]);
-			i++;
-		}
+			while (string[i] != '\0')
+					{
+							putchar(string[i]);
+								i++;
+									}
 }
 /**
  *  * main - Entry point
@@ -24,9 +24,10 @@ void print_putchar(char string[])
  *     */
 int main(void)
 {
-	char string[] = "_putchar";
+		char string[] = "_putchar";
 
-	print_putchar(string);
-	putchar('\n');
-	return (0);
-}}
+			print_putchar(string);
+				putchar('\n');
+
+					return (0);
+}
