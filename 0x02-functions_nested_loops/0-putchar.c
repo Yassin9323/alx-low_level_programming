@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * main - Entry point
@@ -9,13 +9,13 @@ nclude "main.h"
  *       */
 int main(void)
 {
-		char message[] = "_putchar\n";
+		char c[] = "_putchar\n";
 			int i;
 
 				for (i = 0; message[i] != '\0'; i++)
 						{
 									/* Use the _putchar function to print each character */
-									_putchar(message[i]);
+									_putchar(c[i]);
 										}
 
 					return (0);
