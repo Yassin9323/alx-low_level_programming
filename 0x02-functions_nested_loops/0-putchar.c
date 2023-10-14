@@ -1,34 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *  * print_putchar - Printing a _putchar string
- *   *
- *    * Description: Printing a _putchar string
- *     * @string: A string of characters
- *      */
-void print_putchar(char string[])
-{
-		int i = 0;
-
-			while (string[i] != '\0')
-					{
-							putchar(string[i]);
-								i++;
-									}
-}
-/**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ *
+ * Description: Prints _putchar, followed by a new line
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-		char string[] = "_putchar";
+	char message[] = "_putchar\n";
+	int i;
 
-			print_putchar(string);
-				putchar('\n');
+	for (i = 0; message[i] != '\0'; i++)
+	{
+		/* Use the _putchar function to print each character */
+		_putchar(message[i]);
+	}
 
-					return (0);
+	return (0);
 }
 

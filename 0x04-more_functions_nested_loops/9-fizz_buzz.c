@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *  * main - check the code.
- *   *
- *    *description: fizz buzz
- *     *
- *      * Return: Always
- **/
+ * main - check the code.
+ *
+ *description: fizz buzz
+ *
+ * Return: Always
+ */
 
 int main(void)
 {
@@ -15,18 +15,18 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+		printf("FizzBuzz");
 
 		else if ((i % 3) == 0)
-			printf("Fizz");
+		printf("Fizz");
 
 		else if ((i % 5) == 0)
-			printf("Buzz");
+		printf("Buzz");
 		else
-			printf("%i", i);
-		if (i < 100)
+		printf("%i", i);
+			if (i < 100)
 			printf(" ");
 	}
-	printf("\n");
+		printf("\n");
 	return (0);
 }

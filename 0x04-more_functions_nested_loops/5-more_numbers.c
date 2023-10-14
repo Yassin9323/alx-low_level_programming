@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * more_numbers - check the code.
- *   *
- *    *variable
- *     *
- *      * Return: Always
- **/
+ * more_numbers - check the code.
+ *
+ *variable
+ *
+ * Return: Always
+ */
 
 void more_numbers(void)
 {

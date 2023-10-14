@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * print_diagonal - check the code.
- *   *
- *    *@n: variable
- *     *
- *      * Return: Always
- **/
+ * print_diagonal - check the code.
+ *
+ *@n: variable
+ *
+ * Return: Always
+ */
 
 void print_diagonal(int n)
 {
@@ -18,11 +18,11 @@ void print_diagonal(int n)
 		{
 			_putchar(32);
 		}
-		_putchar(92);
-		_putchar('\n');
+			_putchar(92);
+			_putchar('\n');
 	}
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
+		if (n <= 0)
+		{
+			_putchar('\n');
+		}
 }

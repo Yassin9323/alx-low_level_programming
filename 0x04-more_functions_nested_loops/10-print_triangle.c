@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * print_triangle - check the code.
- *   *
- *    *@size: variable
- *     *
- *      * Return: Always
- **/
+ * print_triangle - check the code.
+ *
+ *@size: variable
+ *
+ * Return: Always
+ */
 
 void print_triangle(int size)
 {
@@ -18,10 +18,10 @@ void print_triangle(int size)
 		{
 			_putchar(32);
 		}
-		for (j = 1; j <= i; j++)
-		{
-			_putchar(35);
-		}
+			for (j = 1; j <= i; j++)
+			{
+				_putchar(35);
+			}
 		_putchar('\n');
 	}
 	if (size <= 0)

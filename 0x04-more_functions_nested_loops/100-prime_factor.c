@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *  * main - Entery Point
- *   *
- *    * description: numbersfactor
- *     *
- *      * Return: 0
- **/
+ * main - Entery Point
+ *
+ * description: numbersfactor
+ *
+ * Return: 0
+ */
 
 int main(void)
 {

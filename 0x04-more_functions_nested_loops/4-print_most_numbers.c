@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * print_most_numbers - check the code.
- *   *
- *    * Return: Always
- **/
+ * print_most_numbers - check the code.
+ *
+ * Return: Always
+ */
 
 void print_most_numbers(void)
 {

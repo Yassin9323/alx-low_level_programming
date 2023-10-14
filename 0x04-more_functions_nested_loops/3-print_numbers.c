@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * print_numbers - check the code.
- *   *
- *    * Return: Always .
-**/
+ * print_numbers - check the code.
+ *
+ * Return: Always .
+ */
 
 void print_numbers(void)
 {
@@ -14,5 +14,5 @@ void print_numbers(void)
 	{
 		_putchar('0' + i);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }

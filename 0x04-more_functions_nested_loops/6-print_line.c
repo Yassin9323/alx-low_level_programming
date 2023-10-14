@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * print_line - check the code.
- *   *
- *    *@n: variable
- *     *
- *      * Return: Always
- **/
+ * print_line - check the code.
+ *
+ *@n: variable
+ *
+ * Return: Always
+ */
 
 void print_line(int n)
 {

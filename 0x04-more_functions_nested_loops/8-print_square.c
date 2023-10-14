@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * print_square - check the code.
- *   *
- *    *@size: variable
- *     *
- *      * Return: Always
- **/
+ * print_square - check the code.
+ *
+ *@size: variable
+ *
+ * Return: Always
+ */
 
 void print_square(int size)
 {
@@ -18,8 +18,8 @@ void print_square(int size)
 		{
 			_putchar(35);
 		}
-		_putchar('\n');
+	_putchar('\n');
 	}
 	if (size <= 0)
-		_putchar('\n');
+	_putchar('\n');
 }

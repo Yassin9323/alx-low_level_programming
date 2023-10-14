@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- *  * print_number - check the function code
- *   *
- *    * @n: variables
- *     *
- *      * Return: Always
- **/
+ * print_number - check the function code
+ *
+ * @n: variables
+ *
+ * Return: Always
+ */
 
 void print_number(int n)
 {
